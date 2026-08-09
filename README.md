@@ -2,7 +2,7 @@
 A zero-trust management network: SSH certificate authority, hardware-backed auth, isolated jump host, and an offline root of trust — built for a home lab, designed like production infrastructure.
 
 A from-scratch redesign of how a home lab's administrative surface is
-reached — built around one question: *if my daily-driver PC is
+reached, built around one question: *if my daily-driver PC is
 compromised, what can an attacker reach?* Before this project, the
 answer was "everything." This repository documents the redesign that
 made the answer "nothing, directly."

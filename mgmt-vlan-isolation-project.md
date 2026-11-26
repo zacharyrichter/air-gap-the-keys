@@ -360,7 +360,9 @@ I did consider a different route: running a secrets engine as the CA so
 certificates are issued on demand. The only part I wanted was automated
 renewal, and automating around the offline key delivers that with no new
 service to run, while the signing key still exists decrypted only for
-the length of a supervised run.
+the length of a supervised run. The tool itself, the controls around the
+key and the full decision record are in
+[expire-on-purpose](https://github.com/zacharyrichter/expire-on-purpose).
 
 ### An inconsistency that would have undermined its own goal
 

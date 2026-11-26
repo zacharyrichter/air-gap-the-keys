@@ -63,6 +63,11 @@ longer applies here. Kept because the difference it explains between a
 jump-host tunnel and a jump host that vouches for you is still worth
 knowing.
 
+## Related
+
+- [expire-on-purpose](https://github.com/zacharyrichter/expire-on-purpose): renewing the host certificates this architecture issues, with the monthly expiry check and the reasoning for Ansible over a secrets engine.
+- [diff-is-the-audit](https://github.com/zacharyrichter/diff-is-the-audit): the fleet standards the hosts behind this architecture are held to.
+
 ## License
 
 MIT. Everything here is sanitized — no real IP addresses, hostnames,

@@ -229,4 +229,5 @@ decrypting it. The manual routine above remains for two cases: signing
 a user key, and signing a host certificate if the renewal tool itself is
 unavailable. How the renewal run works — and why it is a human-present
 run rather than an unattended one — is in the main write-up's
-retrospective section.
+retrospective section, and the tool and its runbook are in
+[expire-on-purpose](https://github.com/zacharyrichter/expire-on-purpose).

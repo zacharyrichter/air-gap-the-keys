@@ -197,8 +197,8 @@ That change traded away the hypervisor boundary, so the old claim —
 rather than carried over. How that went is the last item in the
 retrospective below. The result:
 
-- It sits behind two authentication layers: single sign-on first, then
-  the browser's own local login.
+- It sits behind two authentication layers: single sign-on first (set up
+  in [one-front-door](https://github.com/zacharyrichter/one-front-door)), then the browser's own local login.
 - It has its own network. Only the reverse proxy shares it; no other
   container can reach it, and it can't reach theirs.
 - It mounts only its own profile and downloads folders: no Docker socket,
